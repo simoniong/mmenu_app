@@ -4,4 +4,5 @@ $(document).on 'turbolinks:before-visit', ->
   true
 
 $(document).on 'turbolinks:load', ->
-  $('#mobile-menu').mmenu()
+  $('#mobile-menu').mmenu
+    extensions: ['theme-dark', 'pagedim-black']
